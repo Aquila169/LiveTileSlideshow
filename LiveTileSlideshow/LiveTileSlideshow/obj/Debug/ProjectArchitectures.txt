@@ -1,0 +1,4 @@
+C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\BackgroundTasks\BackgroundTasks.csproj;neutral
+C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow.csproj;neutral
+C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\PhotoManagement\PhotoManagement.csproj;neutral
+C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\PhotoManagement\PhotoManagement.csproj;neutral

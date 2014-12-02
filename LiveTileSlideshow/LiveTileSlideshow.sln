@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveTileSlideshow", "LiveTileSlideshow\LiveTileSlideshow.csproj", "{DCD7D632-B7C5-435D-B36E-874444ACC9D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundTasks", "BackgroundTasks\BackgroundTasks.csproj", "{D86EB9AC-A1EF-4BF9-82EB-25FF8BCCEC87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoManagement", "PhotoManagement\PhotoManagement.csproj", "{9D63DD6C-A08B-4C9A-9F96-58FE06344DBA}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://akwaal.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = LiveTileSlideshow\\LiveTileSlideshow.csproj
+		SccProjectName1 = LiveTileSlideshow
+		SccLocalPath1 = LiveTileSlideshow
+		SccProjectUniqueName2 = BackgroundTasks\\BackgroundTasks.csproj
+		SccProjectName2 = BackgroundTasks
+		SccLocalPath2 = BackgroundTasks
+		SccProjectUniqueName3 = PhotoManagement\\PhotoManagement.csproj
+		SccProjectName3 = PhotoManagement
+		SccLocalPath3 = PhotoManagement
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Debug|ARM.ActiveCfg = Debug|ARM
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Debug|ARM.Build.0 = Debug|ARM
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Debug|ARM.Deploy.0 = Debug|ARM
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Debug|x64.ActiveCfg = Debug|x64
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Debug|x64.Build.0 = Debug|x64
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Debug|x64.Deploy.0 = Debug|x64
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Debug|x86.ActiveCfg = Debug|x86
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Debug|x86.Build.0 = Debug|x86
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Debug|x86.Deploy.0 = Debug|x86
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Release|ARM.ActiveCfg = Release|ARM
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Release|ARM.Build.0 = Release|ARM
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Release|ARM.Deploy.0 = Release|ARM
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Release|x64.ActiveCfg = Release|x64
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Release|x64.Build.0 = Release|x64
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Release|x64.Deploy.0 = Release|x64
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Release|x86.ActiveCfg = Release|x86
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Release|x86.Build.0 = Release|x86
+		{DCD7D632-B7C5-435D-B36E-874444ACC9D9}.Release|x86.Deploy.0 = Release|x86
+		{D86EB9AC-A1EF-4BF9-82EB-25FF8BCCEC87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86EB9AC-A1EF-4BF9-82EB-25FF8BCCEC87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86EB9AC-A1EF-4BF9-82EB-25FF8BCCEC87}.Debug|ARM.ActiveCfg = Debug|ARM
+		{D86EB9AC-A1EF-4BF9-82EB-25FF8BCCEC87}.Debug|ARM.Build.0 = Debug|ARM
+		{D86EB9AC-A1EF-4BF9-82EB-25FF8BCCEC87}.Debug|x64.ActiveCfg = Debug|x64
+		{D86EB9AC-A1EF-4BF9-82EB-25FF8BCCEC87}.Debug|x64.Build.0 = Debug|x64
+		{D86EB9AC-A1EF-4BF9-82EB-25FF8BCCEC87}.Debug|x86.ActiveCfg = Debug|x86
+		{D86EB9AC-A1EF-4BF9-82EB-25FF8BCCEC87}.Debug|x86.Build.0 = Debug|x86
+		{D86EB9AC-A1EF-4BF9-82EB-25FF8BCCEC87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86EB9AC-A1EF-4BF9-82EB-25FF8BCCEC87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86EB9AC-A1EF-4BF9-82EB-25FF8BCCEC87}.Release|ARM.ActiveCfg = Release|ARM
+		{D86EB9AC-A1EF-4BF9-82EB-25FF8BCCEC87}.Release|ARM.Build.0 = Release|ARM
+		{D86EB9AC-A1EF-4BF9-82EB-25FF8BCCEC87}.Release|x64.ActiveCfg = Release|x64
+		{D86EB9AC-A1EF-4BF9-82EB-25FF8BCCEC87}.Release|x64.Build.0 = Release|x64
+		{D86EB9AC-A1EF-4BF9-82EB-25FF8BCCEC87}.Release|x86.ActiveCfg = Release|x86
+		{D86EB9AC-A1EF-4BF9-82EB-25FF8BCCEC87}.Release|x86.Build.0 = Release|x86
+		{9D63DD6C-A08B-4C9A-9F96-58FE06344DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D63DD6C-A08B-4C9A-9F96-58FE06344DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D63DD6C-A08B-4C9A-9F96-58FE06344DBA}.Debug|ARM.ActiveCfg = Debug|ARM
+		{9D63DD6C-A08B-4C9A-9F96-58FE06344DBA}.Debug|ARM.Build.0 = Debug|ARM
+		{9D63DD6C-A08B-4C9A-9F96-58FE06344DBA}.Debug|x64.ActiveCfg = Debug|x64
+		{9D63DD6C-A08B-4C9A-9F96-58FE06344DBA}.Debug|x64.Build.0 = Debug|x64
+		{9D63DD6C-A08B-4C9A-9F96-58FE06344DBA}.Debug|x86.ActiveCfg = Debug|x86
+		{9D63DD6C-A08B-4C9A-9F96-58FE06344DBA}.Debug|x86.Build.0 = Debug|x86
+		{9D63DD6C-A08B-4C9A-9F96-58FE06344DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D63DD6C-A08B-4C9A-9F96-58FE06344DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D63DD6C-A08B-4C9A-9F96-58FE06344DBA}.Release|ARM.ActiveCfg = Release|ARM
+		{9D63DD6C-A08B-4C9A-9F96-58FE06344DBA}.Release|ARM.Build.0 = Release|ARM
+		{9D63DD6C-A08B-4C9A-9F96-58FE06344DBA}.Release|x64.ActiveCfg = Release|x64
+		{9D63DD6C-A08B-4C9A-9F96-58FE06344DBA}.Release|x64.Build.0 = Release|x64
+		{9D63DD6C-A08B-4C9A-9F96-58FE06344DBA}.Release|x86.ActiveCfg = Release|x86
+		{9D63DD6C-A08B-4C9A-9F96-58FE06344DBA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
