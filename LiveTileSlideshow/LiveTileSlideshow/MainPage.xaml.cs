@@ -76,10 +76,6 @@ namespace LiveTileSlideshow
         {
             SlideshowImages.Source = PhotoManager.SlideshowImages;
             await PhotoManager.LoadFromDisk(true);
-            if (PhotoManager.SlideshowImages.Count == 0)
-            {
-                //Add the default images.
-            }
         }
 
         private void SlideshowImagesGridView_OnSelectionChanged(object sender, SelectionChangedEventArgs e)

@@ -23,32 +23,27 @@
     <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\PhotoManagement\bin\Debug\PhotoManagement.dll">
       <PackagePath>PhotoManagement.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\BadgeLogo.scale-180.jpg">
-      <PackagePath>Assets\BadgeLogo.scale-180.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\SplashScreen.scale-180.jpg">
+      <PackagePath>Assets\SplashScreen.scale-180.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\Square150x150Logo.scale-180.jpg">
+      <PackagePath>Assets\Square150x150Logo.scale-180.jpg</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\Square310x310Logo.scale-100.jpg">
-      <PackagePath>Assets\Square310x310Logo.scale-100.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\Square310x310Logo.scale-180.jpg">
+      <PackagePath>Assets\Square310x310Logo.scale-180.jpg</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\Wide310x150Logo.scale-100.jpg">
-      <PackagePath>Assets\Wide310x150Logo.scale-100.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\Square70x70Logo.scale-180.jpg">
+      <PackagePath>Assets\Square70x70Logo.scale-180.jpg</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\Logo.scale-100.png">
-      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\Wide310x150Logo.scale-180.jpg">
+      <PackagePath>Assets\Wide310x150Logo.scale-180.jpg</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\SmallLogo.scale-100.png">
-      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\SplashScreen.scale-100.png">
-      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\StoreLogo.scale-100.png">
-      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\bin\Debug\App.xbf">

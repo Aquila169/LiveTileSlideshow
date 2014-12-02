@@ -21,25 +21,28 @@ namespace BackgroundTasks
 {
     public sealed class SlideShowBackgroundTask : IBackgroundTask
     {
+        private int count = 20;
+
         public async void Run(IBackgroundTaskInstance taskInstance)
         {
             //To prevent this task from closing while async code is running.
             BackgroundTaskDeferral deferral = taskInstance.GetDeferral();
 
+            count = PhotoManager.SlideshowImages.Count > count ? count : PhotoManager.SlideshowImages.Count;
+
             Random rand = new Random(DateTime.Now.Minute * DateTime.Now.Second);
             await PhotoManager.LoadFromDisk(false);
             List<SlideshowImage> randomImages = new List<SlideshowImage>();
-            for (int i = 0; i < 40; i++)
+            for (int i = 0; i < count; i++)
             {
                 SlideshowImage image = PhotoManager.SlideshowImages[rand.Next(PhotoManager.SlideshowImages.Count)];
-                //   await image.GetBitmapImage();
                 randomImages.Add(image);
             }
             await RemoveOldImages();
-            //await CopyToAppdata(randomImages);
+
             int c = 0;
             foreach (SlideshowImage img in randomImages)
-                BitmapTransformTest(img, c++);
+                TransformBitmapToTileSize(img, c++);
 
             UpdateFeed(randomImages);
             deferral.Complete();
@@ -58,8 +61,6 @@ namespace BackgroundTasks
             // Create a tile notification for each feed item.
             foreach (SlideshowImage item in images)
             {
-                //XmlDocument xml = new XmlDocument();
-                //xml.LoadXml(GetXml(itemCount));
                 XmlDocument tileXml = TileUpdateManager.GetTemplateContent(TileTemplateType.TileSquare310x310Image);
                 XmlNodeList tileImageAttributes = tileXml.GetElementsByTagName("image");
                 tileImageAttributes[0].Attributes[1].NodeValue = "ms-appdata:///local/" + itemCount + ".jpg";
@@ -67,7 +68,7 @@ namespace BackgroundTasks
                 updater.Update(new TileNotification(tileXml));
 
                 // Don't create more than 5 notifications.
-                if (itemCount++ > 40) break;
+                if (itemCount++ > count) break;
             }
         }
 
@@ -81,14 +82,14 @@ namespace BackgroundTasks
             }
         }
 
-        async private void BitmapTransformTest(SlideshowImage slideshowImage, int i)
+        async private void TransformBitmapToTileSize(SlideshowImage slideshowImage, int i)
         {
-            StorageFile file = await slideshowImage.GetStorageFile();            
+            StorageFile file = await slideshowImage.GetStorageFile();
 
             // create a stream from the file and decode the image
             var fileStream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
             BitmapDecoder decoder = await BitmapDecoder.CreateAsync(fileStream);
-            
+
             // create a new stream and encoder for the new image
             IRandomAccessStream ras = await
                 (await ApplicationData.Current.LocalFolder.CreateFileAsync(i + ".jpg")).OpenAsync(
@@ -96,18 +97,18 @@ namespace BackgroundTasks
             BitmapEncoder enc = await BitmapEncoder.CreateForTranscodingAsync(ras, decoder);
 
             // convert the entire bitmap to a 100px by 100px bitmap
-            uint height =// 310;
+            uint height =
             (uint)
                 (decoder.PixelHeight > decoder.PixelWidth
                     ? (310.0f / (float)decoder.PixelWidth) * decoder.PixelHeight
                     : 310);
-            uint width =// 310;
+            uint width =
             (uint)
                 (decoder.PixelWidth > decoder.PixelHeight
                     ? (310.0f / (float)decoder.PixelHeight) * decoder.PixelWidth
                     : 310);
 
-            enc.BitmapTransform.ScaledHeight =  height;
+            enc.BitmapTransform.ScaledHeight = height;
             enc.BitmapTransform.ScaledWidth = width;
 
             BitmapBounds bounds = new BitmapBounds();
@@ -116,7 +117,6 @@ namespace BackgroundTasks
             bounds.X = 0;
             bounds.Y = 0;
             enc.BitmapTransform.Bounds = bounds;
-
             // write out to the stream
             try
             {

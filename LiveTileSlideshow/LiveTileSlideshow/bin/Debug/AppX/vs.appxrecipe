@@ -6,7 +6,7 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>157be2fb-f8fa-429f-86d1-a685b05c219f</PackageIdentityName>
-    <RegisteredManifestChecksum>6E80FAEA1B1686F661CAD52FFF1098A10EE189E77FAAC84D9A4979BD55CAA7D7</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>5083F8BFC00524C38B9D15A59C5E1C0361C659C62181B05D49821F4155917EF9</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>157be2fb-f8fa-429f-86d1-a685b05c219f_1.0.0.0_neutral__k9r0q3vcfmxx2</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>157be2fb-f8fa-429f-86d1-a685b05c219f_k9r0q3vcfmxx2!App</RegisteredUserModeAppID>
     <RegisteredPackageID>157be2fb-f8fa-429f-86d1-a685b05c219f</RegisteredPackageID>
@@ -17,56 +17,50 @@
     <AppXManifest Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-12-02T12:17:23.434</Modified>
+      <Modified>2014-12-02T21:51:17.162</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\bin\Debug\LiveTileSlideshow.exe">
       <PackagePath>LiveTileSlideshow.exe</PackagePath>
-      <Modified>2014-12-02T12:21:48.742</Modified>
+      <Modified>2014-12-02T21:51:16.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\BackgroundTasks\bin\Debug\BackgroundTasks.winmd">
       <PackagePath>BackgroundTasks.winmd</PackagePath>
-      <Modified>2014-12-02T12:17:20.403</Modified>
+      <Modified>2014-12-02T21:43:13.577</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\PhotoManagement\bin\Debug\PhotoManagement.dll">
       <PackagePath>PhotoManagement.dll</PackagePath>
-      <Modified>2014-12-01T23:31:57.505</Modified>
+      <Modified>2014-12-02T21:23:39.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\BadgeLogo.scale-180.jpg">
-      <PackagePath>Assets\BadgeLogo.scale-180.jpg</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-12-01T22:03:53.768</Modified>
+    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\SplashScreen.scale-180.jpg">
+      <PackagePath>Assets\SplashScreen.scale-180.jpg</PackagePath>
+      <Modified>2014-12-02T21:41:45.137</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\Square310x310Logo.scale-100.jpg">
-      <PackagePath>Assets\Square310x310Logo.scale-100.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\Square150x150Logo.scale-180.jpg">
+      <PackagePath>Assets\Square150x150Logo.scale-180.jpg</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-12-01T22:17:29.996</Modified>
+      <Modified>2014-12-02T21:47:52.351</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\Wide310x150Logo.scale-100.jpg">
-      <PackagePath>Assets\Wide310x150Logo.scale-100.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\Square310x310Logo.scale-180.jpg">
+      <PackagePath>Assets\Square310x310Logo.scale-180.jpg</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-12-01T22:19:00.248</Modified>
+      <Modified>2014-12-02T21:44:38.403</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\Logo.scale-100.png">
-      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\Square70x70Logo.scale-180.jpg">
+      <PackagePath>Assets\Square70x70Logo.scale-180.jpg</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T05:01:02.000</Modified>
+      <Modified>2014-12-02T21:48:55.900</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\SmallLogo.scale-100.png">
-      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\Wide310x150Logo.scale-180.jpg">
+      <PackagePath>Assets\Wide310x150Logo.scale-180.jpg</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T05:01:02.000</Modified>
+      <Modified>2014-12-02T21:46:15.699</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\SplashScreen.scale-100.png">
-      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T05:01:02.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\Assets\StoreLogo.scale-100.png">
-      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T05:01:02.000</Modified>
+      <Modified>2014-12-02T21:50:59.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -78,7 +72,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Casper\Documents\Visual Studio 2013\Projects\LiveTileSlideshow\LiveTileSlideshow\LiveTileSlideshow\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-12-01T23:12:33.357</Modified>
+      <Modified>2014-12-02T21:51:16.193</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
