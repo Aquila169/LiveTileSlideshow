@@ -54,6 +54,7 @@ namespace LiveTileSlideshow
                 taskBuilder.Name = "SlideShowBackgroundTask";
                 taskBuilder.TaskEntryPoint = "BackgroundTasks.SlideShowBackgroundTask";
                 taskBuilder.SetTrigger(new TimeTrigger(15, false));
+               // taskBuilder.SetTrigger(new SystemTrigger(SystemTriggerType.LockScreenApplicationAdded, true));
                 var registration = taskBuilder.Register();
             }
         }

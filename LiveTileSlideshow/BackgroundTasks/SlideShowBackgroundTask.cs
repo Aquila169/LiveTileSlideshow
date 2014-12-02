@@ -21,18 +21,15 @@ namespace BackgroundTasks
 {
     public sealed class SlideShowBackgroundTask : IBackgroundTask
     {
-        private int count = 20;
-
         public async void Run(IBackgroundTaskInstance taskInstance)
         {
             //To prevent this task from closing while async code is running.
             BackgroundTaskDeferral deferral = taskInstance.GetDeferral();
 
-            count = PhotoManager.SlideshowImages.Count > count ? count : PhotoManager.SlideshowImages.Count;
-
             Random rand = new Random(DateTime.Now.Minute * DateTime.Now.Second);
             await PhotoManager.LoadFromDisk(false);
             List<SlideshowImage> randomImages = new List<SlideshowImage>();
+            int count = PhotoManager.SlideshowImages.Count > 20 ?20 : PhotoManager.SlideshowImages.Count;
             for (int i = 0; i < count; i++)
             {
                 SlideshowImage image = PhotoManager.SlideshowImages[rand.Next(PhotoManager.SlideshowImages.Count)];
@@ -63,12 +60,9 @@ namespace BackgroundTasks
             {
                 XmlDocument tileXml = TileUpdateManager.GetTemplateContent(TileTemplateType.TileSquare310x310Image);
                 XmlNodeList tileImageAttributes = tileXml.GetElementsByTagName("image");
-                tileImageAttributes[0].Attributes[1].NodeValue = "ms-appdata:///local/" + itemCount + ".jpg";
+                tileImageAttributes[0].Attributes[1].NodeValue = "ms-appdata:///local/" + itemCount++ + ".jpg";
                 // Create a new tile notification. 
                 updater.Update(new TileNotification(tileXml));
-
-                // Don't create more than 5 notifications.
-                if (itemCount++ > count) break;
             }
         }
 
